@@ -2,7 +2,7 @@
     "name": "movie_app",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://bluecandle.github.io/nomad-coder-react",
+    "homepage": "https://bluecandle.github.io/nomad-coder-react-basics",
     "dependencies": {
         "@testing-library/jest-dom": "^4.2.4",
         "@testing-library/react": "^9.3.2",
