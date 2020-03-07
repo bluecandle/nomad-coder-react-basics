@@ -1,49 +1,37 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Food({name, image, rating}) {
-    return (
-        <div>
-            <h1>I like {name}</h1>
-            <img src={image} alt={name}/>
-            <h3>{rating}
-                / 5.0
-            </h3>
-        </div>
-    )
-}
-
-Food.propTypes = {
-    name: PropTypes.string.isRequired,
-    image: PropTypes.string.isRequired,
-    rating: PropTypes.number
-}
-
-const foodLike = [
-    {
-        id: 1,
-        name: "arar",
-        image: "asdfasd",
-        rating: 3.4
-    }, {
-        id: 2,
-        name: "arar",
-        image: "asdfasd",
-        rating: 3.5
-    }, {
-        id: 3,
-        name: "arar",
-        image: "asdfasd",
-        rating: 4
+class App extends React.Component {
+    constructor(props){
+        super(props)
     }
-]
-
-function App() {
-    return (
-        <div className="App">
-            {foodLike.map(dish => (<Food key={dish.id} name={dish.name} image={dish.image} rating={dish.rating}/>))}
-        </div>
-    );
+    state = {
+        count: 0
+    }
+    add = () => {
+        this.setState(current => ({count: current.count+1}))
+    }
+    minus = () => {
+        this.setState(current => ({count: current.count-1}))
+    }
+    componentDidMount(){
+        // render 이후에 실행된다.
+    }
+    componentDidUpdate(){
+        // update 이후에 실행된다.
+    }
+    componentWillUnmount(){
+        // unmount (comonent 가 죽기) 전에 실행된다.
+    }
+    render() {
+        return (
+            <div>
+                <h1>The number is {this.state.count}</h1>
+                <button onClick={this.add}>Add</button>
+                <button onClick={this.minus}>Minus</button>
+            </div>
+        )
+    }
 }
 
 export default App;
