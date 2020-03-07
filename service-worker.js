@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/nomad-coder-react/precache-manifest.90a2173469e4d4b38cb70d72cb5c8e41.js"
+  "/nomad-coder-react/precache-manifest.a49e94a358ec670cbfece96af17b4a0b.js"
 );
 
 self.addEventListener('message', (event) => {
