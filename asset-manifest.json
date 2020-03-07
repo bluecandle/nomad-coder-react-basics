@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/nomad-coder-react/static/css/main.7fe3c6c6.chunk.css",
+    "main.js": "/nomad-coder-react/static/js/main.691dc3cd.chunk.js",
+    "main.js.map": "/nomad-coder-react/static/js/main.691dc3cd.chunk.js.map",
+    "runtime-main.js": "/nomad-coder-react/static/js/runtime-main.f4b2ad38.js",
+    "runtime-main.js.map": "/nomad-coder-react/static/js/runtime-main.f4b2ad38.js.map",
+    "static/js/2.13bd5e02.chunk.js": "/nomad-coder-react/static/js/2.13bd5e02.chunk.js",
+    "static/js/2.13bd5e02.chunk.js.map": "/nomad-coder-react/static/js/2.13bd5e02.chunk.js.map",
+    "index.html": "/nomad-coder-react/index.html",
+    "precache-manifest.62a9ffd8c4c350d5c4ad69c17cc1edaa.js": "/nomad-coder-react/precache-manifest.62a9ffd8c4c350d5c4ad69c17cc1edaa.js",
+    "service-worker.js": "/nomad-coder-react/service-worker.js",
+    "static/css/main.7fe3c6c6.chunk.css.map": "/nomad-coder-react/static/css/main.7fe3c6c6.chunk.css.map",
+    "static/js/2.13bd5e02.chunk.js.LICENSE.txt": "/nomad-coder-react/static/js/2.13bd5e02.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f4b2ad38.js",
+    "static/js/2.13bd5e02.chunk.js",
+    "static/css/main.7fe3c6c6.chunk.css",
+    "static/js/main.691dc3cd.chunk.js"
+  ]
+}
